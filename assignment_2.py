@@ -21,7 +21,7 @@ name = input('Enter your name: ')
 sid = input('Enter your SID: ')
 cgpa = input('Enter your CGPA: ')
 dept_name = input('Enter your Department name: ')
-# Printing the details n the given format using fstring
+# Printing the details in the given format using fstring
 print(f'Hey, {name} here! \n'
        f'My SID is {sid}\n'
        f'I am from {dept_name} and my CGPA is {cgpa}\n \n')
