@@ -165,33 +165,29 @@ if search_sid in details:
 else:
     print('Student details with this SID is not present in thr hash.')
 
-
 # Question 7
-# Program to display the Fibonacci sequence up to n-th term
+# Taking input for the terms required.
+Total_Terms=int(input("Enter the number of fibonacci terms you want:- \n"))
+First_Term=0
+Next_Term=1
+Nth_Term=0
+Sum=0
+# Using for loop to get the n terms
 
-terms = int(input("How many terms? "))
-
-# Initialising first two numbers of the sequence
-num1, num2 = 0, 1
-count = 0
-
-# Check if the number of terms is valid
-if terms <= 0:
-    print("Please enter a positive integer")
-# If there is only one term, return num1
-elif terms == 1:
-    print("Fibonacci sequence upto", terms, ":")
-    print(num1, '\n')
-# Generating fibonacci sequence up to n-th term
-else:
-    print("Fibonacci sequence:")
-    while count < terms:
-        print(num1, )
-        next = num1 + num2
-        # update values
-        num1 = num2
-        num2 = next
-        count += 1
+for i in range(1,Total_Terms+1):
+    
+    if(i==1):
+        print(0)
+    elif (i==2):
+        print(1)
+        Sum=Sum+1
+    else:
+        Nth_Term=First_Term+Next_Term
+        Sum=Sum+Nth_Term
+        print(Nth_Term)
+        First_Term=Next_Term
+        Next_Term=Nth_Term
+print("The Average of the numbers is:-", float(Sum/Total_Terms))
 print('\n')
 
 
