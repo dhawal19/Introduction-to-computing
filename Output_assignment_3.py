@@ -45,7 +45,7 @@ Do you want to add student details? N
 Enter SID of the student to be searched: 12
 Name of the student:  a 
 
-Enter the number of fibonacci terms you want:
+Enter the number of fibonacci terms you want: 
 8
 0
 1
