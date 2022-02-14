@@ -55,7 +55,7 @@ Enter the number of fibonacci terms you want:
 5
 8
 13
-The Average of the numbers is:- 4.125
+The Average of the numbers is: 4.125
 
 
 Part a:  {1, 3, 5, 6, 8}
