@@ -45,8 +45,8 @@ Do you want to add student details? N
 Enter SID of the student to be searched: 12
 Name of the student:  a 
 
-How many terms? 8
-Fibonacci sequence:
+Enter the number of fibonacci terms you want:
+8
 0
 1
 1
@@ -55,6 +55,7 @@ Fibonacci sequence:
 5
 8
 13
+The Average of the numbers is:- 4.125
 
 
 Part a:  {1, 3, 5, 6, 8}
