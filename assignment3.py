@@ -167,7 +167,7 @@ else:
 
 # Question 7
 # Taking input for the terms required.
-Total_Terms=int(input("Enter the number of fibonacci terms you want:- \n"))
+Total_Terms=int(input("Enter the number of fibonacci terms you want: \n"))
 First_Term=0
 Next_Term=1
 Nth_Term=0
@@ -187,7 +187,7 @@ for i in range(1,Total_Terms+1):
         print(Nth_Term)
         First_Term=Next_Term
         Next_Term=Nth_Term
-print("The Average of the numbers is:-", float(Sum/Total_Terms))
+print("The Average of the numbers is: ", float(Sum/Total_Terms))
 print('\n')
 
 
