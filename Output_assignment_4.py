@@ -60,7 +60,7 @@ Immutable set:  frozenset({5, 6, 8, 9, 10})
 
 (f) 
 
-Hash value of the max value from the above set:-  10 
+Hash value of the max value from the above set: 10 
 
 
 Object has been created. 
