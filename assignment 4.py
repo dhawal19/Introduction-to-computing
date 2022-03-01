@@ -125,7 +125,7 @@ print('Immutable set: ', immutable_set, '\n\n')
 
 # part (f)
 print("(f) \n")
-print("Hash value of the max value from the above set:- ", hash(max(immutable_set)), '\n\n')
+print("Hash value of the max value from the above set: ", hash(max(immutable_set)), '\n\n')
 
 
 # Question 4
